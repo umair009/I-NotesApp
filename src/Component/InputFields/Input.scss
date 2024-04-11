@@ -1,0 +1,48 @@
+.inputSection {
+
+    .inputFields {
+        text-align: center;
+
+        h1 {
+            margin: 25px 0px;
+            color: green
+        }
+
+        .textInputField {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+
+        Button {
+            width: 50%;
+
+            &:hover {
+                background-color: lightgreen;
+            }
+        }
+    }
+}
+
+
+
+//Responsive design
+@media only screen and (min-width: 250px) and (max-width: 768px) {
+    .inputSection {
+
+        .inputFields {
+
+            .textInputField {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            Button {
+                width: 100%;
+
+                &:hover {
+                    background-color: lightgreen;
+                }
+            }
+        }
+    }
+}

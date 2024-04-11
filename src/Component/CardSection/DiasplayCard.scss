@@ -1,0 +1,76 @@
+.cardSectionData {
+
+    .row {
+
+        .search {
+            background-color: white;
+            padding: 6px;
+            border-radius: 5px;
+            display: flex;
+
+
+            input {
+                background-color: transparent;
+                border: none;
+                width: 100%;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+        .card {
+            margin-top: 50px;
+            background-color: #FEF68A;
+            border-radius: 6px;
+
+            .card-title {
+                margin-bottom: 20px;
+            }
+
+            .card-text {
+                text-align: justify;
+            }
+
+            .cardIcon {
+                margin-top: 50px;
+                display: flex;
+                justify-content: end;
+
+                #editIcons {
+                    background-color: green;
+                    color: #FEF68A;
+                    padding: 3px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-right: 5px;
+                }
+
+                #deleteIcons {
+                    background-color: green;
+                    color: #FEF68A;
+                    padding: 3px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+//Responsive design
+@media only screen and (min-width: 250px) and (max-width: 575px) {
+    .cardSectionData {
+        .row {
+
+            Button {
+                margin-bottom: 20px;
+                width: 100%;
+            }
+        }
+    }
+}

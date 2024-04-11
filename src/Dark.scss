@@ -1,0 +1,29 @@
+//card display comonent dark theme
+.cardSectionData {
+    &.dark {
+        background-color: #333;
+    }
+}
+
+//input comonent dark theme
+.inputSection {
+    &.dark {
+        background-color: #333;
+
+        .inputFields {
+
+            h1 {
+                color: #ffffff96;
+            }
+
+
+            label {
+                color: #ffffff96;
+            }
+
+            textarea {
+                color: #ffffff96;
+            }
+        }
+    }
+}
